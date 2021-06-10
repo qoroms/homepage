@@ -57,10 +57,10 @@ const DesktopApp = () => {
       <Section>
         <Partners data={integrations} />
       </Section>
-      {/* <SectionAlternate innerNarrowed>
+      <SectionAlternate innerNarrowed>
         <Pricings />
       </SectionAlternate>
-      <Section>
+      {/* <Section>
         <Download data={[]} />
       </Section> */}
       <Divider />
