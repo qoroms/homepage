@@ -72,8 +72,8 @@ export const integrations = [
     logo: '/images/market.png',
     name: 'CoinMarket',
   },
-  {
-    logo: '/images/market.png',
-    name: 'CoinMarket',
-  },
+  // {
+  //   logo: '/images/market.png',
+  //   name: 'CoinMarket',
+  // },
 ];

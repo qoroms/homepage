@@ -21,6 +21,7 @@ export default function App({ Component, pageProps }) {
         name="viewport"
         content="width=device-width, initial-scale=1, shrink-to-fit=no"
         />
+        <title>Zoracles - DeFi Oracle Platform</title>
       </Head>
       <Component {...pageProps} />
     </React.Fragment>

@@ -52,7 +52,7 @@ const useStyles = makeStyles(theme => ({
   },
   logoText: {
     color: theme.palette.primary.dark,
-    fontSize: "24px"
+    fontSize: "24px",
   },
   listItemActive: {
     '&> .menu-item': {

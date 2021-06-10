@@ -4,6 +4,7 @@ import React from 'react';
 import clsx from 'clsx';
 import PropTypes from 'prop-types';
 import { makeStyles } from '@material-ui/core/styles';
+import { Image, DarkModeToggler } from 'components/atoms';
 import {
   List,
   ListItem,
@@ -156,7 +157,58 @@ const SidebarNav = props => {
           <CloseIcon fontSize="small" />
         </ListItemIcon>
       </ListItem>
-      <ListItem className={classes.listItem}>
+          <ListItem className={clsx(classes.listItem, 'menu-item--no-dropdown')}>
+            <Button
+              component="a"
+              href="/"
+            >
+              Home
+            </Button>
+          </ListItem>
+          <ListItem className={clsx(classes.listItem, 'menu-item--no-dropdown')}>
+            <Button
+              component="a"
+              href="https://nftswaps.org/"
+            >
+              SWAP
+            </Button>
+          </ListItem>
+          <ListItem className={clsx(classes.listItem, 'menu-item--no-dropdown')}>
+            <Button
+              component="a"
+              href="https://zora.cc/"
+            >
+              ZORA
+            </Button>
+          </ListItem>
+          <ListItem className={clsx(classes.listItem, 'menu-item--no-dropdown')}>
+            <Button
+              component="a"
+              href="https://data.zoracles.com/"
+            >
+              DATA
+            </Button>
+          </ListItem>
+          <ListItem className={clsx(classes.listItem, 'menu-item--no-dropdown')}>
+            <Button
+              component="a"
+              href="https://gov.zoracles.com/"
+            >
+              GOVERNANCE
+            </Button>
+          </ListItem>
+          <ListItem className={clsx(classes.listItem, 'menu-item--no-dropdown')}>
+            <Button
+              component="a"
+              href="https://etherscan.io/token/0xd8e3fb3b08eba982f2754988d70d57edc0055ae6"
+            >
+              CONTRACT
+            </Button>
+          </ListItem>
+          {/* <ListItem className={clsx(classes.listItem, 'menu-item--no-dropdown')}>
+            <DarkModeToggler themeMode={themeMode} onClick={() => themeToggler()} />
+          </ListItem> */}
+      {/* <ListItem className={classes.listItem}>
         <Typography variant="h6" color="textPrimary" gutterBottom>
           Landings
         </Typography>
@@ -179,7 +231,7 @@ const SidebarNav = props => {
           Account
         </Typography>
         <AccountPages />
-      </ListItem>
+      </ListItem> */}
       <ListItem className={classes.listItem}>
         <Button
           variant="outlined"

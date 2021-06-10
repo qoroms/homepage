@@ -38,9 +38,9 @@ const Reviews = props => {
             <Grid container spacing={1}>
               <Grid item xs={12}>
                 <ListItem disableGutters>
-                  <ListItemAvatar className={classes.listItemAvatar}>
+                  {/* <ListItemAvatar className={classes.listItemAvatar}>
                     <Avatar src={item.logo} className={classes.avatar} />
-                  </ListItemAvatar>
+                  </ListItemAvatar> */}
                   <ListItemText
                     primary={item.title}
                     primaryTypographyProps={{

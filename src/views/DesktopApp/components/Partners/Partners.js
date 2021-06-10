@@ -26,7 +26,7 @@ const Partners = props => {
       <Grid container spacing={isMd ? 4 : 2}>
         <Grid item xs={12} md={6} data-aos="fade-up">
           <SectionHeader
-            title="We strive to integrate our product with promotion"
+            title="We strive to collaborate and expand our reach"
             subtitle="Our team is focused on partnerships and outreach to the crypto community. We believe our platform will be valuable to liquidity providers across the DeFi ecosystem."
             align="left"
             label="PRESS"
