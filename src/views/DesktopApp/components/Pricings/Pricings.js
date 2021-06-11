@@ -25,7 +25,7 @@ const Pricings = props => {
   return (
     <div className={className} {...rest}>
       <SectionHeader
-        title="As Metioned In"
+        title="As Mentioned In"
         subtitle=""
         data-aos="fade-up"
       />
