@@ -34,7 +34,7 @@ const Pricings = props => {
         display: "flex",
         marginBottom: "40px"
       }}>
-        <Box style={{
+        {/* <Box style={{
           width: "200px",
           cursor: "pointer",
           userSelect: "none"
@@ -62,28 +62,28 @@ const Pricings = props => {
             <a href="https://app.uniswap.org/#/swap?outputCurrency=0xd8e3fb3b08eba982f2754988d70d57edc0055ae6&use=V2" target="_blank">
             <img src="/images/section/uniswap.png" style={{width: "100%"}}/>
           </a>
-        </Box>
-        <Box style={{
-          width: "200px",
-          cursor: "pointer",
-          userSelect: "none",
-          marginLeft: "50px"
-        }}
-        >
-          <a href="https://www.bloomberg.com/press-releases/2020-11-23/zoracles-launches-snarks-as-a-service-for-confidential-credit-checks" target="_blank">
-            <img src="/images/section/bloomberg.png" style={{width: "100%"}}/>
-          </a>
-        </Box>
+        </Box> */}
       </div>
       <div style={{
         flexDirection: "row",
         display: "flex",
       }}>
         <Box style={{
+          width: "200px",
+          cursor: "pointer",
+          userSelect: "none",
+          margin: "auto 0"
+        }}
+        >
+          <a href="https://www.bloomberg.com/press-releases/2020-11-23/zoracles-launches-snarks-as-a-service-for-confidential-credit-checks" target="_blank">
+            <img src="/images/section/bloomberg.png" style={{width: "100%"}}/>
+          </a>
+        </Box>
+        <Box style={{
             width: "150px",
             cursor: "pointer",
             userSelect: "none",
-            marginLeft: "50px"
+            margin: "auto 0 auto 30px"
           }}>
           <a href="https://finance.yahoo.com/news/zoracles-launches-snarks-confidential-credit-163000563.html" target="_blank">
             <img src="/images/section/yahoo.png" style={{width: "100%"}}/>
@@ -93,7 +93,7 @@ const Pricings = props => {
           width: "150px",
           cursor: "pointer",
           userSelect: "none",
-          marginLeft: "50px"
+          margin: "auto 0 auto 50px"
         }}>
           <a href="https://www.entrepreneur.com/article/362584" target="_blank">
             <img src="/images/section/entrepreneur.png" style={{width: "100%"}}/>
@@ -103,7 +103,7 @@ const Pricings = props => {
           width: "150px",
           cursor: "pointer",
           userSelect: "none",
-          marginLeft: "50px"
+          margin: "auto 0 auto 50px"
         }}>
           <a href="https://hackernoon.com/crypto-series-2-zero-knowledge-oracles-uniswap-and-decentralized-games-3eh3z7p" target="_blank">
             <img src="/images/section/hacker.png" style={{width: "100%"}}/>

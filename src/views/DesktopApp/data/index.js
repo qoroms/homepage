@@ -53,24 +53,24 @@ export const support = {
 
 export const integrations = [
   {
-    logo: '/images/ZORA.png',
-    name: 'ZORA',
-  },
-  {
     logo: '/images/uniswap.png',
     name: 'Uniswap',
+    link: 'https://app.uniswap.org/#/swap?outputCurrency=0xd8e3fb3b08eba982f2754988d70d57edc0055ae6&use=V2',
   },
   {
     logo: '/images/coin.png',
     name: 'Coin',
-  },
-  {
-    logo: '/images/WETH.png',
-    name: 'Ether',
+    link: 'https://www.coingecko.com/en/coins/zoracles',
   },
   {
     logo: '/images/market.png',
     name: 'CoinMarket',
+    link: 'https://coinmarketcap.com/currencies/zoracles/',
+  },
+  {
+    logo: '/images/WETH.png',
+    name: 'Ether',
+    link: 'https://etherscan.io/token/0xD8E3FB3b08eBA982F2754988d70D57eDc0055ae6'
   },
   // {
   //   logo: '/images/market.png',

@@ -165,7 +165,7 @@ const SidebarNav = props => {
               Home
             </Button>
           </ListItem>
-          <ListItem className={clsx(classes.listItem, 'menu-item--no-dropdown')}>
+          {/* <ListItem className={clsx(classes.listItem, 'menu-item--no-dropdown')}>
             <Button
               component="a"
               href="https://nftswaps.org/"
@@ -180,7 +180,7 @@ const SidebarNav = props => {
             >
               ZORA
             </Button>
-          </ListItem>
+          </ListItem> */}
           <ListItem className={clsx(classes.listItem, 'menu-item--no-dropdown')}>
             <Button
               component="a"

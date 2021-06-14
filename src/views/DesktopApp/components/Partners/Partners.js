@@ -44,14 +44,16 @@ const Partners = props => {
           <Grid container spacing={2}>
             {data.map((item, index) => (
               <Grid item xs={4} key={index}>
-                <CardBase withShadow liftUp>
-                  <Image
-                    src={item.logo}
-                    alt={item.name}
-                    className={classes.logo}
-                    lazy={false}
-                  />
-                </CardBase>
+                <a href={item.link} target="_blank">
+                  <CardBase withShadow liftUp>
+                    <Image
+                      src={item.logo}
+                      alt={item.name}
+                      className={classes.logo}
+                      lazy={false}
+                    />
+                  </CardBase>
+                </a>
               </Grid>
             ))}
           </Grid>
