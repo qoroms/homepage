@@ -237,21 +237,9 @@ const SidebarNav = props => {
           variant="outlined"
           fullWidth
           component="a"
-          href="/documentation"
+          href="https://zoracles.com/whitepaper_v1.pdf"
         >
           Documentation
-        </Button>
-      </ListItem>
-      <ListItem className={classes.listItem}>
-        <Button
-          variant="contained"
-          color="primary"
-          fullWidth
-          component="a"
-          target="blank"
-          href="https://material-ui.com/store/items/the-front-landing-page/"
-        >
-          Buy Now
         </Button>
       </ListItem>
     </List>
