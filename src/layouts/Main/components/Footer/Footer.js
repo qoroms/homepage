@@ -99,7 +99,7 @@ const Footer = props => {
 
   const quicklinks = [
     { title: "Home", href: "/"},
-    { title: "Docs", href: "https://zoraclesscribe.gitbook.io/zoracles/"},
+    { title: "Docs", href: "https://zoracles.medium.com/"},
     { title: "NFT Swap", href: "https://nftswaps.org/"},
     { title: "DeFi Prime", href: "https://defiprime.com/zoracles"},
     { title: "Whitepaper", href: "https://zoracles.com/whitepaper_v1.pdf"},

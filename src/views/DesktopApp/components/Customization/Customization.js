@@ -41,7 +41,7 @@ const Customization = props => {
           <Button variant="contained" color="primary" size="large" href="https://app.zoracles.com/">
             Start now
           </Button>,
-          <Button variant="outlined" color="primary" size="large" href="https://zoraclesscribe.gitbook.io/zoracles/">
+          <Button variant="outlined" color="primary" size="large" href="https://zoracles.medium.com/">
             Learn more
           </Button>,
         ]}
